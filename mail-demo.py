@@ -5,16 +5,17 @@ from email.message import EmailMessage
 import imghdr
 
 _SENDER_EMAIL_ADDRESS = "sender_email_address@gmail.com"
-_SENDER_EMAIL_PASSWORD = "sender_password"
+_SENDER_EMAIL_PASSWORD = "sender_email_password"
 _RECEIVER_EMAIL_ADDRESS = "receiver_email_address@example.com"
 
 msg = EmailMessage()
 msg['Subject'] = 'Email Automation'
 msg['From'] = _SENDER_EMAIL_ADDRESS
 msg['To'] = _RECEIVER_EMAIL_ADDRESS
-msg.set_content("")
+msg.set_content("This email is Automatically send using Python Script!")
 
-with open("~/PATH_TO_IMAGE/saturday.jpg", "rb") as f:
+# sending attachment with mail 
+with open("~/PATH_TO_FILE/saturday.jpg", "rb") as f:
     _DATA = f.read()
     _TYPE = imghdr.what(f.name)
     _NAME = f.name
