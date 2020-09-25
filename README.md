@@ -5,10 +5,10 @@ Email automation provides benefits from both transactional and marketing email b
 
 ## Tools
 
-- Python 3.7 **[[Python](www.python.org)]**
-- pip3 **[[PIP](pip.pypa.io/)]**
+- Python 3.7 **[[Python](https://www.python.org)]**
+- pip3 **[[PIP](https://pip.pypa.io/)]**
 - IDE
-    - Visual Studio Code **[[vscode](code.visualstudio.com/)]**
+    - Visual Studio Code **[[vscode](https://code.visualstudio.com/)]**
 
 
 ## Package
