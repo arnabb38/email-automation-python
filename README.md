@@ -1,16 +1,19 @@
-# Email Automation using Python
+# Email Automation using **Python 3**!
 
-Automate sending Email using Python Script
+Email automation provides benefits from both transactional and marketing email because it allows to follow up with individuals automatically.
 
-## Tech Used
 
-- Python 3.7
-- pip3
+## Tools
 
-## Library Used
+- Python 3.7 **[[Python](www.python.org)]**
+- pip3 **[[PIP](pip.pypa.io/)]**
+- IDE
+    - Visual Studio Code **[[vscode](code.visualstudio.com/)]**
 
-```
+
+## Package
+
 - smtplib
 - EmailMessage
 - imghdr
-```
+
