@@ -17,3 +17,7 @@ Email automation provides benefits from both transactional and marketing email b
 - EmailMessage
 - imghdr
 
+## Author
+### Arnab Basak
+- [x] Linkedin: [@arnab-basak](https://linkedin.com/in/arnab-basak)
+- [x] Github: [@arnabb38](https://github.com/arnabb38)
