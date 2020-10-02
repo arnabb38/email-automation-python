@@ -15,7 +15,7 @@ msg['To'] = _RECEIVER_EMAIL_ADDRESS
 msg.set_content("This email is Automatically send using Python Script!")
 
 # sending attachment with mail 
-with open("~/PATH_TO_FILE/saturday.jpg", "rb") as f:
+with open("~/PATH_TO_FILE/assets/example.jpg", "rb") as f:
     _DATA = f.read()
     _TYPE = imghdr.what(f.name)
     _NAME = f.name
